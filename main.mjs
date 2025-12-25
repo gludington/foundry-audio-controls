@@ -3,6 +3,7 @@ const id = "jennys-audio-controls"
 const log = (arg) => {
     console.info(id, arg)
 }
+log("Patched for Talos")
 const controls = {}
 // V11, V12 has one document structure, V13 has another.
 let path;
